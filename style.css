@@ -1,0 +1,43 @@
+body{
+    background-color: #FFFEFF;
+}
+
+.credit-card{
+    width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    background: url(./bcg-card.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input{
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+/* remove input arrow */
+/* chrome */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+/* remove input arrow */
+
+
+.stripe{
+    width: 100%;
+    height: 45px;
+}
